@@ -124,3 +124,24 @@ string fn = Console.ReadLine();
 char letter111 = fn[0];
 Console.WriteLine($"Результат: {ln} {letter111}.");
 
+
+Console.WriteLine("Задание 3");
+
+
+Console.Write("Введите целое число: ");
+string input1 = Console.ReadLine();
+bool ok1 = int.TryParse(input1, out int num);
+Console.WriteLine($"Успех: {ok1}, Значение: {num}");
+
+
+Console.Write("Введите дробное число: ");
+string input2 = Console.ReadLine();
+bool ok2 = double.TryParse(input2,out double va); 
+Console.WriteLine($"Успех: {ok2}, Значение: {va}");
+
+
+Console.Write("Введите дату (дд.мм.гггг): ");
+string input3 = Console.ReadLine();
+bool ok3 = DateTime.TryParse(input3, out DateTime date);
+Console.WriteLine($"Успех: {ok3}, Значение: {date}");
+
