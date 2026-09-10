@@ -112,3 +112,15 @@ string w1 = Console.ReadLine();
 double w = double.Parse(w1);
 double IMT = w / (r * r);
 Console.WriteLine($"ИМТ: {IMT:F2}");
+
+Console.WriteLine();
+Console.WriteLine("Задание 2");
+
+Console.Write("Введите вашу фамилию: ");
+string ln = Console.ReadLine();
+
+Console.Write("Введите ваше имя: ");
+string fn = Console.ReadLine();
+char letter111 = fn[0];
+Console.WriteLine($"Результат: {ln} {letter111}.");
+
