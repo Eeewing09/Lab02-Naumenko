@@ -102,3 +102,13 @@ Console.WriteLine($"Год рождения: {year} (в 2030 году будет
 Console.WriteLine($"Средний балл: {score}");
 Console.WriteLine($"Балл >= 4.0: {i}");
 Console.WriteLine($"Любимая буква: {letter}");
+
+Console.Write("Введите ваш рост: ");
+string r1 = Console.ReadLine();
+double r = double.Parse(r1);
+
+Console.Write("Введите ваш вес: ");
+string w1 = Console.ReadLine();
+double w = double.Parse(w1);
+double IMT = w / (r * r);
+Console.WriteLine($"ИМТ: {IMT:F2}");
