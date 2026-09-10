@@ -12,3 +12,4 @@ C:\Users\Семён\Documents\Lab02-Naumenko\obj\Debug\net10.0\refint\Lab02-Naum
 C:\Users\Семён\Documents\Lab02-Naumenko\obj\Debug\net10.0\Lab02-Naumenko.pdb
 C:\Users\Семён\Documents\Lab02-Naumenko\obj\Debug\net10.0\Lab02-Naumenko.genruntimeconfig.cache
 C:\Users\Семён\Documents\Lab02-Naumenko\obj\Debug\net10.0\ref\Lab02-Naumenko.dll
+C:\Users\Семён\Documents\Lab02-Naumenko\obj\Debug\net10.0\Lab02-Naumenko.sourcelink.json
